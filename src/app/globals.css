@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 body {
-    @apply bg-cover bg-center min-h-screen;
-    background-image: url('../../public/assets/images/background-mobile.png');
+  @apply min-h-screen;
+  background-image: url("../../public/assets/images/pattern-lines.svg"),
+    url("../../public/assets/images/pattern-squiggly-line-top.svg"),
+    url("../../public/assets/images/pattern-circle.svg"),
+    url("../../public/assets/images/pattern-squiggly-line-bottom.svg"),
+    url("../../public/assets/images/background-mobile.png");
+
+  background-position: top, top right, 310px 400px, bottom left;
+  background-repeat: no-repeat;
+  background-size: cover, 130px 120px, 110px, 300px, cover;
 }
