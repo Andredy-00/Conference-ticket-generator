@@ -11,7 +11,7 @@ body {
 
   background-position: top, top right, bottom left, center;
   background-repeat: no-repeat;
-  background-size: cover, 130px 120px, 300px, cover;
+  background-size: cover, 110px 120px, 300px, cover;
 }
 
 body::after {
