@@ -3,7 +3,7 @@ import logoFull from "../../../public/assets/images/logo-full.svg";
 
 export default function Header() {
   return (
-    <header className="text-white capitalize grid text-center place-items-center pt-5 tracking-wider">
+    <header className="text-white capitalize grid text-center place-items-center pt-5">
         <Image
         src={logoFull}
         alt="Coding Conf"
