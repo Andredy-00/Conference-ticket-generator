@@ -78,5 +78,6 @@ body::before {
     background-color: hsl(7, 88%, 67%);
     color: hsl(248, 70%, 10%);
     font-weight: bold;
+    width: 100%;
   }
 }
