@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { poppins } from "./ui/fonts";
+import { inconsolata } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Conference Ticket Generator",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${inconsolata.className}`}>{children}</body>
     </html>
   );
 }

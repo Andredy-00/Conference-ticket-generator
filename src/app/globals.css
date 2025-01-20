@@ -41,3 +41,21 @@ body::before {
   background-repeat: no-repeat;
   border-radius: 50%;
 }
+
+@layer components {
+  .border-gris {
+    border-color: hsl(245, 15%, 58%, 0.8);
+  }
+
+  .background-file {
+    background-color: hsl(245, 19%, 35%, 0.4);
+  }
+
+  .bg-file-icon {
+    background-color: hsl(245, 19%, 35%, 0.8);
+    border-radius: 8px;
+    border: 1px solid hsl(245, 15%, 58%, 0.4);
+    width: 40px;
+    padding: 7px;
+  }
+}

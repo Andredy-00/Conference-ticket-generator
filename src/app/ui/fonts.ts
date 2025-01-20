@@ -1,6 +1,6 @@
-import { Poppins } from 'next/font/google';
+import { Inconsolata } from 'next/font/google';
 
 /* Font Principal */ 
-export const poppins = Poppins({
-  weight: ['200']
+export const inconsolata = Inconsolata({
+  weight: ['400']
 });
