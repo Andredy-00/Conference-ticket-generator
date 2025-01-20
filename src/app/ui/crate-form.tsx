@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Form() {
   return (
     <form action="">
@@ -7,7 +9,10 @@ export default function Form() {
       <div>
         <h2>upload Avatar</h2>
         <label htmlFor="file-input">
-          <img src="" alt="Subir archiivo" />
+          <Image
+            src=""
+            alt=""
+          />
           <span>drag and drop or click to upload</span>
         </label>
         <input type="file" id="file-input" />
