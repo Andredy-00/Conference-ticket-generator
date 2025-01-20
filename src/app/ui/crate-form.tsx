@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import iconUpload from "../../../public/assets/images/icon-upload.svg";
+import iconInfo from "../../../public/assets/images/icon-info.svg"
 
 export default function Form() {
   return (
     <form action="" className="w-full">
       {/* Upload avatar */}
-      <div className="text-white p-3 font-medium">
+      <div className="text-white p-3 font-medium grid gap-3">
 
         {/* File input */}
-        <h2 className="capitalize pb-2">upload Avatar</h2>
+        <h2 className="capitalize">upload Avatar</h2>
         <div className="border-dashed border-2 border-gris w-full rounded-lg p-3 background-file">
           <label
             htmlFor="file-input"
@@ -25,9 +26,15 @@ export default function Form() {
           </label>
         </div>
         <input className="hidden" type="file" id="file-input" />
-        <p className="font-thin ">
-          Upliad your photo (JPG or PNG, max size: 500KB
+        <div className="flex gap-2 items-center">
+          <Image
+            src={iconInfo}
+            alt="Informacion"
+          />
+        <p className="text-xs">
+          Upload your photo (JPG or PNG, max size: 500KB
         </p>
+        </div>
       </div>
 
       {/* Full name */}
