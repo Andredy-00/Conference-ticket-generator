@@ -9,7 +9,7 @@ export default function Header() {
         alt="Coding Conf"
         className="w-40 pb-6"
         />
-      <h1 className="text-2xl font-bold p-3">your journey to coding <br /> conf 2025 starts here!</h1>
+      <h1 className="text-2xl font-bold p-2">your journey to coding <br /> conf 2025 starts here!</h1>
       <p>secure your spot at next years <br /> biggest coding conference.</p>
     </header>
   );

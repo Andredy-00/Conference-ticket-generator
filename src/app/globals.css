@@ -11,7 +11,7 @@ body {
 
   background-position: top, top right, bottom left, center;
   background-repeat: no-repeat;
-  background-size: cover, 110px 120px, 300px, cover;
+  background-size: cover, 100px 120px, 300px, cover;
 }
 
 body::after {
@@ -78,6 +78,22 @@ body::before {
     background-color: hsl(7, 88%, 67%);
     color: hsl(248, 70%, 10%);
     font-weight: bold;
+    margin-top: 10px;
     width: 100%;
+  }
+
+  .font-color-h1 {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .font-color-p {
+    color: hsl(245, 15%, 58%);
+  }
+
+  .bg-ticket {
+    background-image: url("../../public/assets/images/pattern-ticket.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

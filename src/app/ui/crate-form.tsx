@@ -33,7 +33,7 @@ export default function Form() {
         </div>
       </div>
               
-      <div className="p-3 grid gap-3 capitalize text-white">
+      <div className="p-3 grid gap-3 capitalize text-white sm:text-red-600">
         {/* Full name */}
         <div className="input-style">
           <label htmlFor="fullname">full name</label>
