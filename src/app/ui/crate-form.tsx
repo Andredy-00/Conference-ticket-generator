@@ -3,10 +3,11 @@
 import Image from "next/image";
 import iconUpload from "../../../public/assets/images/icon-upload.svg";
 import iconInfo from "../../../public/assets/images/icon-info.svg";
+import { formData } from "../lib/action";
 
 export default function Form() {
   return (
-    <form action="" className="w-full">
+    <form action={formData} className="w-full">
       {/* Upload avatar */}
       <div className="text-white p-3 font-medium grid gap-3">
         {/* File input */}
